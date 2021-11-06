@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width">
+    <title>PeaceKeeper| Counsellor</title>
+    <link href="style.css" rel="stylesheet"
+    type="text/css" />
+  </head>
+  <body id="counsellors-page" class="page">
+    <script src="script.js"></script>
+    <div class = navbar>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="workspace.html">Workspace</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li class="counsellors"><a class="active" href="counsellor.html">Counsellor</a></li>
+      </ul>
+    </div>
+    <div class="counsellor">
+        <div class="title-top">
+        <div class="vine">
+            <img src="l.png" alt="design" width="35" height= "35">
+              <!-- image from https://www.seekpng.com/ima/u2q8r5q8y3i1r5o0/  -->
+          </div>
+          <p class="c" >
+           Contact For Counselling
+          </p>
+          <div class="vine">
+            <img src="l.png" alt="design" width="35" height= "35">
+          </div>
+        </div>
+        <br>
+        
+        <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name *</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname"required placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name *</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country *</label>
+              </div>
+              <div class="col-75">
+                <select id="country" required name="country">
+                    <option value="">--Select Your Country--</option>
+                  <option value="australia">India</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="age">Age *</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="age" name="age" required placeholder="Your Age" ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="gender">Gender *</label>
+                </div>
+                <div class="col-75">
+                  <select id="gender" required name="gender">
+                      <option value="">--Select Your Gender--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email *</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="email" input type="email" name="email" required placeholder="Email(xyz@gmail.com)" ></textarea>
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject for Counselling *</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" required placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+    </div>
+    </body>
+    <footer>
+        <p> @2021 PeaceKeeper</p>
+    </footer>
+    </html>

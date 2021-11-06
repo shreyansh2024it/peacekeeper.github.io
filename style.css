@@ -1,0 +1,468 @@
+@import url(https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+  font-family: 'Hind', Fallback, sans-serif;
+  background-color: #AFD4AA;
+  /* display: grid;
+  grid-template-rows: auto auto auto; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: #fff;
+  color: #1C7363;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+#home-page {
+  background-image: url(green.jpg);
+}
+
+#workspace-page {
+  background-image: url(plant.jpg);
+}
+
+#counsellors-page {
+  background-image: url(rain.gif);
+}
+
+#music-page {
+  background-image: url(muzic.gif);
+  background-size: cover;
+}
+
+.title {
+  background-color: #fff;
+  margin: 32vh 0 0 0;
+  padding: 30px 10px 10px 10px;
+}
+
+.title-top {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.title-bottom {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+  text-decoration: underline;
+  text-decoration-color: #AFD4AA;
+}
+
+.vine {
+  padding: 5px 20px;
+}
+
+#navbar {
+  padding: 0;
+}
+
+#navbar-home {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff5d6;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar a {
+  opacity: .5;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: #fff5d6;
+  font-size: 1.2em;
+}
+
+.navbar a.active {
+  color: #1C7363;
+  text-decoration: underline;
+  text-decoration-color: #1C7363;
+}
+
+.navbar a:hover {
+  background: #AFD4AA;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+  font-size: 1.3em;
+}
+
+.workspace {
+  background-color: rgba(255, 255, 255, .3);
+  border: 2px solid rgba(0, 0, 0, 1);
+  width: 70vw;
+  margin: 20px 15vw;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#time div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 10px 15px;
+    background: white;
+}
+
+#time div span {
+    color: #1C7363;
+    display: block;
+    margin-top: 2px;
+    font-size: .85em;
+    font-weight: 400;
+}
+
+h5 {
+  text-align: center;
+  color: #1C7363;
+  font-size: 30px;
+  background-color: #fff5d6;
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.brain {
+  display: flex;
+  text-align: center;
+  width: 300px;
+  margin: 35px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("p.jpg");
+  background-size: 100% 100%;
+  font-size: 1.2em;
+  padding: 50px;
+  margin: 30vw;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.list-container {
+  background-color: #fff5d6;  
+  padding: 30px;
+}
+
+.content {
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff5d6;
+}
+
+#timer-feedback {
+  width: 350px;
+  font-family: 'Satisfy', cursive;
+}
+
+.session-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  padding: 0 25%;
+  width: 50%;
+}
+
+.session {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.taskbutton {
+  width: fit-content;
+  padding: 10px;
+  background-color: #1C7363;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px auto 25px auto;
+}
+
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.timer-buttons button {
+  font-size: 1.3em;
+  padding: 20px;
+  margin: 5px 10px 25px 10px;
+  font-family: 'Satisfy', cursive;
+  background: white;
+  border: none;
+}
+
+.task {
+  padding: 10px;
+  margin: 5px 5px 25px 5px;
+  border-radius: 15px;
+}
+
+h2 {
+ 
+  color: rgb(2, 109, 2);
+  text-align: center;
+  background-color: #f0e1b6;
+  font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  text-decoration: none;
+  color: #1C7363;
+  text-align: center;
+  background-color: #AFD4AA;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+h4 {
+  text-decoration: none;
+  color: #1C7363;
+  text-align: center;
+  background-color: #A7DDDC;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+#task-card {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1C7363;
+  border-radius: 15px;
+}
+
+.music {
+  display: flex;  
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  background-image: url("p.jpg");
+  background-size: cover; 
+  margin: 150px 15vw;
+  padding: 30px;
+  align-items: center;
+}
+
+h6 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+
+}
+h7#quote {
+  font-size: 30px;
+  
+
+}
+
+.finish-studying {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#finish-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 275px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1C7363;
+  color:#AFD4AA;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.text-title{
+  color: #1C7363;
+  background-color:#AFD4AA;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name a{
+  color: #AFD4AA;
+  text-decoration: none;
+}
+
+.name:hover{
+  opacity: 80%;
+}
+
+.name {
+  text-decoration: none;
+}
+
+.about {
+  text-align: center;
+  color: white;
+}
+
+.resource {
+  padding: 10px;
+  background-color: #1C7363;
+  width: 60%;
+  height: fit-content;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.section{
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.counsellor
+{
+  display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    justify-content: center;
+    background-image: url("p.jpg");
+    opacity: 0.9;
+    background-size: cover;
+    margin: 150px 15vw;
+    padding: 30px;
+    align-items: center;
+}
+.c{
+  font-family: 'Pacifico', cursive;
+  color:#1C7363;
+}

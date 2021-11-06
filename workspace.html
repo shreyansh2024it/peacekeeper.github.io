@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PeaceKeeper | Workspace</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body id="workspace-page" class="page">
+      <div id="navbar-workspace" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="workspace.html">Workspace</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li class="resources"><a href="counsellor.html">Counsellor</a></li>
+        </ul>
+      </div>
+      <!--
+      <h1>
+        Workspace
+      </h1>
+      -->
+      <div class="workspace">
+      <div class="timer">
+        <div id="time">
+          <div>0<span>Hours</span></div>
+          <div>30<span>Minutes</span></div>
+          <div>0<span>Seconds</span></div>
+        </div>
+        <h5>
+          <div id="timer-feedback">
+          Stopped
+          </div>
+          <div class="session-container">
+            <input class="session" type="text"
+              placeholder="Session Length? (mins)">
+          </div>
+        </h5>
+        <div class="timer-buttons">
+          <button id="btn-start" class="button" onclick="checkStartButton()">Start Studying</button>
+          <button id="btn-stop" class="button" onclick="checkStopButton()">Stop Studying</button>
+        </div>
+        <div class="finish-studying">
+          <img id="finish-img">
+        </div>
+      </div>
+
+      <article class="content">
+        <form class="user-input">
+          <div class="to-do-list">
+            <h2>To-Do List</h2>
+          </div>
+          <input class="task" type="text"
+          placeholder="Enter a Task">
+          <input class="taskbutton" type="submit" value="Add to My To-Do List">
+        </form>
+        <section class="list-container">
+        </section>
+      </article>
+    </div>
+  </body>
+   <footer>
+    <p>© 2021 PeaceKeeper</p>
+  </footer>
+</html>
